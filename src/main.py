@@ -4,7 +4,6 @@ import datetime
 
 app = FastAPI()
 
-
 class Msg(BaseModel):
     msg: str
 
