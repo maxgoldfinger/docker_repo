@@ -20,4 +20,3 @@ async def function_demo_get():
         "message": f"It's {datetime.datetime.now().time()}"
     }
 
-# !uvicorn main:app --reload

@@ -10,4 +10,4 @@ EXPOSE 8080
 
 RUN chmod a+x ./run.sh
 
-ENTRYPOINT ["/.run.sh"]
+ENTRYPOINT ["./run.sh"]
