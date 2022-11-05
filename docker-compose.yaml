@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  service1:
+    build: .
+    restart: always
+    ports:
+      - 8080:8080
