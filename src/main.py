@@ -10,7 +10,7 @@ class Msg(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "API home page"}
+    return {"message": "API home page!"}
 
 
 @app.get("/time")
